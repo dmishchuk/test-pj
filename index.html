@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles/main.css" >
+<!--    <link rel="preload" as="style" href="">-->
+<!--    Critical Rendering Path    -->
+<!--    537-->
+<!--    200-300 : 1.5-->
+<!--    300+ ppi / 150-->
+<!--    1440 x 3040-->
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h2>Some text</h2>
+            <nav>
+                <a href="./index.html">Main</a>
+                <a href="./contact-us.html">Contact Us</a>
+                <a href="./contact-us.html">About</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <ul>
+                <li data-admin>1</li>
+                <li>2</li>
+                <li data-admin>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <picture>
+                <source width="200px" srcset="banner.webp">
+                <img width="200px" src="banner.png">
+            </picture>
+            <div class="alert">Some base alert message</div>
+            <div class="alert-danger">Some error alert message</div>
+        </div>
+    </main>
+</body>
+</html>
